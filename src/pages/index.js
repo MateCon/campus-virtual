@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Main from '../components/Main'
+import Banner from '../components/Banner'
 
 export default function Home() {
   return (
@@ -10,7 +12,10 @@ export default function Home() {
         <script src="/js/bootstrap.bundle.min.js"></script>
       </Head>
       <Header />
-      <Main />
+      <div class="container">
+        <Banner />
+        <Main />
+      </div>
     </>
   )
 }
