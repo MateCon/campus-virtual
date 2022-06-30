@@ -1,10 +1,8 @@
-import Image from "next/image"
-
 export default function Header() {
   return (
     <header className="header-campus box-shadow">
       <nav className="navbar navbar-expand-lg container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <h1 className="d-none">Campus ORT</h1>
           <img className="img-fluid campus-logo" src="/img/logo.png" alt="Campus ORT" />
         </a>
@@ -16,7 +14,7 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/">
                 <svg className="bi bi-person-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z"
@@ -25,7 +23,7 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/#">
                 <svg className="bi bi-list" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd"
